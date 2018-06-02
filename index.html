@@ -36,10 +36,16 @@
       .container {
       margin: 50px auto 40px auto; width: 75%; text-align: center;
       }
+      .hero {
+        width:100%;
+      }
       }
       @media only screen and (min-device-width: 315px) and (max-device-width: 500px)  and (orientation: landscape) {
       .container {
       margin: 50px auto 40px auto; width: 300px; text-align: center;
+      }
+      .hero {
+        width:300px;
       }
       @media
       only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -68,7 +74,7 @@
   <body>
 
     <div class="container">
-      <a href="https://github.com/jaechow/"><img src="img/sup-world.png" width="100%" /></a>
+      <a href="https://github.com/jaechow/"><img class="hero" src="img/sup-world.png" /></a>
       <h1>Hello World</h1>
       <p>
       </p>
