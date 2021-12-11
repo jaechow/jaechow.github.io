@@ -1,0 +1,14 @@
+/* ALL */
+*
+{
+	outline: none;
+}
+
+html
+{
+	margin: 0px 0px 0px 0px;
+	background-image: url(img/Starfield_1.png);
+	background-attachment: fixed !important;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
